@@ -1,14 +1,12 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-
 package eva1_19_primos;
 
 /**
  *
- * @author invitado
+ * @author Usuario
  */
 public class EVA1_19_PRIMOS {
 
@@ -18,25 +16,23 @@ public class EVA1_19_PRIMOS {
     public static void main(String[] args) {
         // TODO code application logic here
     }
- public static boolean primo2aN(int num){
-     boolean resu = false;
-     int modulo = 0;
-     for(int i = 2; i < num; i++){
-         modulo = num % i;
-         if(modulo == 0)
-             resu = false;
-     }
-     return resu;
- }
- public static boolean primos2aRaizN(int num){
-     boolean resu = true;
-     int modulo = 0;
-     double raiz = Math.sqrt(num);
-     int raizEnt = (int)raiz;
-     fot(int i = 2); i <= raizEnt; i++);{
-     modulo = num % i;
-     if(modulo == 0);
-         resu = false;
- }
- return resu;
+    public static boolean primos2aN(int num) {
+        boolean resu = true;
+        int modulo = 0;
+        for (int i = 2; i < num; i++) {
+            modulo = num % i;
+            if (modulo == 0)
+                resu = false;
+            
+        }
+
+    }
+     public static boolean primos2aRaizN(int num) {
+        double raiz = Math.sqrt(num);
+        int raizEnt = (int) raiz;
+        for (int i = 2; i < raizEnt; i++) {
+            
+        }
+        
+    }
 }
